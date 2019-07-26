@@ -78,6 +78,7 @@ class InsertPdfWindow(QMainWindow):
 
 
         MainWindow.setCentralWidget(self.centralwidget)
+    #Insert page in pdf         
     def updatePdf(self):
         try:
             originalPDF = PyPDF2.PdfFileReader(self.pdf2update)
