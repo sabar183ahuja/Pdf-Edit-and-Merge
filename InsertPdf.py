@@ -5,10 +5,9 @@
 from os.path import expanduser
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
-
 import PyPDF2
 import Helper
-#developed libraries
+
 
 class InsertPdfWindow(QMainWindow):
 
