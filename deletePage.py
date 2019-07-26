@@ -59,7 +59,7 @@ class DeletePageWindow(QMainWindow):
 		deleteWindowButton.setFlat(True)
 
 		MainWindow.setCentralWidget(self.centralwidget)
-
+# 	delete page in pdf
 	def updatePdf(self):
 		try:
 			originalPDF = PyPDF2.PdfFileReader(self.pdf2update)
