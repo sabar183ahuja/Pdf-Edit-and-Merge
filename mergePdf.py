@@ -87,7 +87,7 @@ class MergePdfWindow(QMainWindow):
 
        	MainWindow.setCentralWidget(self.centralwidget)
 
-
+    #Merge pdf files 
     def mergePdf(self):
         mergedPdf= PyPDF2.PdfFileMerger()
         mergedPdf.append(self.firstFile)
