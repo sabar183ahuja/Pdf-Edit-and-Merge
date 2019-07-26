@@ -81,6 +81,7 @@ class UpdatePdfWindow(QMainWindow):
 
 
        	MainWindow.setCentralWidget(self.centralwidget)
+    # update a page in pdf        
     def updatePdf(self):
         try:
             originalPDF = PyPDF2.PdfFileReader(self.pdfToUpdate)
