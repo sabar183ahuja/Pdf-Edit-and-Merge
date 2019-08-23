@@ -34,7 +34,7 @@ python main.py
 2. Click on any of the 4 buttons on the top to switch between pages 
 [merger](screenshots/merge.png)
 
-![updater](screenshots/updater.png)
+![updater](screenshots/Screenshot (2).png)
 
 ![inserter](screenshots/inserter.png)
 
