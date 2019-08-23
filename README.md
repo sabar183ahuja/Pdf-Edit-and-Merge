@@ -32,6 +32,13 @@ python main.py
 ## Instructions:
 1. Run the main script
 2. Click on any of the 4 buttons on the top to switch between pages 
+[merger](screenshots/merge.png)
+
+![updater](screenshots/updater.png)
+
+![inserter](screenshots/inserter.png)
+
+![deleter](screenshots/deleter.png)
 3. Pick your files and enter data
 4. A message Box will pop up to conifrm if the pdf was updated or the update failed
 ## License
