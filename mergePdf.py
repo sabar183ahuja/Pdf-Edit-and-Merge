@@ -86,13 +86,17 @@ class MergePdfWindow(QMainWindow):
         self.InsertWindowButton.setGeometry(340,00,100,30)
 
        	MainWindow.setCentralWidget(self.centralwidget)
+# as
 
-    #Merge pdf files 
     def mergePdf(self):
         mergedPdf= PyPDF2.PdfFileMerger()
-        mergedPdf.append(self.firstFile)
-        mergedPdf.append(self.secondFile)
-
+        try:
+            mergedPdf.append(self.firstFile)
+            mergedPdf.append(self.secondFile)
+        except:
+            Helper.DialogBox("Error in opening files")
+            return
+         
         fullbook = open(self.mergedFilePath+"/"+self.newFileNametext.text() + '.pdf', 'wb')
         mergedPdf.write(fullbook)
         mergedPdf.close()
